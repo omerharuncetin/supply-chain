@@ -12,6 +12,7 @@ In the **Terminal 2** you should run React.js application
 ## Requirements
 - You should run blockchain first, then frontend application.
 - You should connect your metamask to **localhost:8545**.
+- You should add your metamask one of the truffle accounts and use the platform with that.
 
 ## Run Blockchain
 Run the commands below one by one
@@ -20,9 +21,9 @@ Run the commands below one by one
 ### Start Truffle Development Environment
 `truffle develop`
 ### Compile Smart Contracts
-`compile`
+`truffle compile` or `compile`
 ### Deploy Smart Contracts To Local Blockchain
-`migrate`
+`truffle migrate` or `migrate`
 
 ## Run React.js Application
 
