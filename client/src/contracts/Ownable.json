@@ -39,7 +39,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity ^0.6.0;\r\n\r\ncontract Ownable {\r\n    address public _owner;\r\n\r\n    constructor() internal {\r\n        _owner = msg.sender;\r\n    }\r\n\r\n    /**\r\n     * @dev Throws if called by any account other than the owner.\r\n     */\r\n    modifier onlyOwner() {\r\n        require(isOwner(), \"Ownable: caller is not the owner\");\r\n        _;\r\n    }\r\n\r\n    /**\r\n     * @dev Returns true if the caller is the current owner.\r\n     */\r\n    function isOwner() public view returns (bool) {\r\n        return (msg.sender == _owner);\r\n    }\r\n}\r\n",
-  "sourcePath": "C:\\Users\\Hp\\Desktop\\event-trigger-truffle\\contracts\\Ownable.sol",
+  "sourcePath": "C:\\Users\\Hp\\Desktop\\supply-chain\\contracts\\Ownable.sol",
   "ast": {
     "absolutePath": "project:/contracts/Ownable.sol",
     "exportedSymbols": {
@@ -997,8 +997,8 @@
     "version": "0.6.1+commit.e6f7d5a4.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.3",
-  "updatedAt": "2021-10-24T14:38:10.826Z",
+  "schemaVersion": "3.4.7",
+  "updatedAt": "2023-04-26T15:33:46.151Z",
   "devdoc": {
     "methods": {
       "isOwner()": {
